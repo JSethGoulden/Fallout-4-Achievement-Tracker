@@ -1,0 +1,242 @@
+[
+  { "name": "War Never Changes", "description": "Enter The Wasteland", "completed": true },
+  {
+    "name": "When Freedom Calls",
+    "description": "Complete \"When Freedom Calls\"",
+    "completed": true
+  },
+  {
+    "name": "Unlikely Valentine",
+    "description": "Complete \"Unlikely Valentine\"",
+    "completed": true
+  },
+  { "name": "Reunions", "description": "Complete \"Reunions\"", "completed": true },
+  { "name": "Dangerous Minds", "description": "Complete \"Dangerous Minds\"", "completed": true },
+  { "name": "Hunter/Hunted", "description": "Complete \"Hunter/Hunted\"", "completed": true },
+  {
+    "name": "The Molecular Level",
+    "description": "Complete \"The Molecular Level\"",
+    "completed": true
+  },
+  {
+    "name": "The Nuclear Option",
+    "description": "Complete \"The Nuclear Option\"",
+    "completed": true
+  },
+  {
+    "name": "Institutionalized",
+    "description": "Complete \"Institutionalized\"",
+    "completed": true
+  },
+  {
+    "name": "Mankind-Redefined",
+    "description": "Complete \"Mankind-Redefined\"",
+    "completed": true
+  },
+  { "name": "Powering Up", "description": "Complete \"Powering Up\"", "completed": true },
+  { "name": "Nuclear Family", "description": "Complete \"Nuclear Family\"", "completed": false },
+  { "name": "The First Step", "description": "Join the Minutemen", "completed": true },
+  {
+    "name": "Taking Independence",
+    "description": "Complete \"Taking Independence\"",
+    "completed": true
+  },
+  { "name": "Old Guns", "description": "Complete \"Old Guns\"", "completed": true },
+  { "name": "Semper Invicta", "description": "Join the Brotherhood of Steel", "completed": true },
+  { "name": "Blind Betrayal", "description": "Complete \"Blind Betrayal\"", "completed": false },
+  { "name": "Ad Victoriam", "description": "Complete \"Ad Victoriam\"", "completed": false },
+  { "name": "Tradecraft", "description": "Join the Railroad", "completed": true },
+  {
+    "name": "Underground Undercover",
+    "description": "Complete \"Underground Undercover\"",
+    "completed": true
+  },
+  {
+    "name": "Rockets' Red Glare",
+    "description": "Complete \"Rockets' Red Glare\"",
+    "completed": true
+  },
+  { "name": "Sanctuary", "description": "Complete \"Sanctuary\"", "completed": true },
+  { "name": "Community Organizer", "description": "Ally with 3 Settlements", "completed": true },
+  {
+    "name": "Benevolent Leader",
+    "description": "Reach Maximum Happiness in a Large Settlement",
+    "completed": false
+  },
+  { "name": "Gun-For-Hire", "description": "Complete 10 Side Quests", "completed": true },
+  { "name": "Mercenary", "description": "Complete 50 Misc. Objectives", "completed": false },
+  {
+    "name": "Scavver",
+    "description": "Gather 1000 Resources Used For Crafting",
+    "completed": true
+  },
+  { "name": "What's Yours Is Mine", "description": "Pick 50 Locks", "completed": true },
+  { "name": "RobCo's Worst Nightmare", "description": "Hack 50 Terminals", "completed": false },
+  { "name": "Armed and Dangerous", "description": "Create 50 Weapon Mods", "completed": true },
+  { "name": "Wasteland D.I.Y.", "description": "Craft 100 Items", "completed": true },
+  {
+    "name": "Never Go It Alone",
+    "description": "Recruit 5 Separate Companions",
+    "completed": true
+  },
+  {
+    "name": "Lovable",
+    "description": "Reach Maximum Relationship Level with a Companion",
+    "completed": false
+  },
+  { "name": "Fix-Er-Upper", "description": "Build 100 Workshop Items", "completed": true },
+  { "name": "Future Retro", "description": "Play a Holotape Game", "completed": true },
+  { "name": "…The Harder They Fall", "description": "Kill 5 Giant Creatures", "completed": false },
+  { "name": "Ranger Corps", "description": "Discover 100 Locations", "completed": true },
+  { "name": "Print's Not Dead", "description": "Read 20 Magazines", "completed": true },
+  {
+    "name": "Prankster's Return",
+    "description": "Placed A Grenade Or Mine While Pickpocketing",
+    "completed": false
+  },
+  { "name": "Masshole", "description": "Kill 300 People", "completed": true },
+  { "name": "Animal Control", "description": "Kill 300 Creatures", "completed": true },
+  { "name": "Homerun!", "description": "Get a Homerun", "completed": true },
+  { "name": "Touchdown!", "description": "Get a Touchdown", "completed": true },
+  {
+    "name": "They're Not Dolls…",
+    "description": "Collect 10 Vault-Tec Bobbleheads",
+    "completed": false
+  },
+  {
+    "name": "…They're Action Figures",
+    "description": "Collect 20 Vault-Tec Bobbleheads",
+    "completed": false
+  },
+  { "name": "Born Survivor", "description": "Reach Level 5", "completed": true },
+  { "name": "Commonwealth Citizen", "description": "Reach Level 10", "completed": true },
+  { "name": "Unstoppable Wanderer", "description": "Reach Level 25", "completed": true },
+  { "name": "Legend Of The Wastes", "description": "Reach Level 50", "completed": true },
+  {
+    "name": "Prepared for the Future",
+    "description": "Decide the Fate of the Commonwealth",
+    "completed": true
+  },
+  {
+    "name": "Mechanical Menace",
+    "description": "Complete \"Mechanical Menace\"",
+    "completed": true
+  },
+  { "name": "Headhunting", "description": "Complete \"Headhunting\"", "completed": false },
+  { "name": "Restoring Order", "description": "Complete \"Restoring Order\"", "completed": false },
+  { "name": "Robot Hunter", "description": "Unlock 10 Robot Mods", "completed": false },
+  { "name": "The Most Toys", "description": "Build 10 Robot Mods", "completed": false },
+  { "name": "Docile", "description": "Have 5 Tamed Creatures in a Settlement", "completed": false },
+  {
+    "name": "Instigator",
+    "description": "Start a Spectated Arena Fight in a Settlement",
+    "completed": false
+  },
+  { "name": "Trapper", "description": "Build One of Every Cage Type", "completed": false },
+  {
+    "name": "Far From Home",
+    "description": "Complete the quest \"Far From Home\"",
+    "completed": true
+  },
+  {
+    "name": "Where You Belong",
+    "description": "Complete the quest \"Where You Belong\"",
+    "completed": false
+  },
+  {
+    "name": "The Way Life Should Be",
+    "description": "Complete the quest \"The Way Life Should Be\"",
+    "completed": false
+  },
+  {
+    "name": "Cleansing The Land",
+    "description": "Complete the quest \"Cleansing the Land\"",
+    "completed": false
+  },
+  {
+    "name": "Close To Home",
+    "description": "Complete the quest \"Close to Home\"",
+    "completed": false
+  },
+  {
+    "name": "The Islander's Almanac",
+    "description": "Collect all issues of \"The Islander's Almanac\" magazine",
+    "completed": false
+  },
+  { "name": "Hooked", "description": "Defeat 30 Far Harbor Sea Creatures", "completed": false },
+  {
+    "name": "New England Vacationer",
+    "description": "Discover 20 Far Harbor Locations",
+    "completed": false
+  },
+  {
+    "name": "Push Back The Fog",
+    "description": "Unlock 3 Far Harbor Workshop Locations",
+    "completed": false
+  },
+  {
+    "name": "Just Add Saltwater",
+    "description": "Cook One of the New Far Harbor Recipes",
+    "completed": true
+  },
+  {
+    "name": "Show Off",
+    "description": "Display a weapon on a weapon rack, armor on an armor rack, and power armor in a power armor display.",
+    "completed": false
+  },
+  { "name": "Time Out", "description": "Assign a settler to a pillory", "completed": false },
+  {
+    "name": "Mass Production",
+    "description": "Produce 100 objects from your builders",
+    "completed": false
+  },
+  { "name": "Oversight", "description": "Become Overseer", "completed": false },
+  {
+    "name": "Better Living Underground",
+    "description": "Unlock all Vault 88 build areas",
+    "completed": false
+  },
+  {
+    "name": "Vault Dweller",
+    "description": "Equip Vault 88 suit and Pip-Boy on a settler",
+    "completed": false
+  },
+  {
+    "name": "Raiding for a Living",
+    "description": "Complete 12 quests for any Nuka-World Raider Gangs",
+    "completed": false
+  },
+  {
+    "name": "Diebrarian",
+    "description": "Collect every issue of Scav! Magazine",
+    "completed": false
+  },
+  {
+    "name": "Beverageer",
+    "description": "Create 20 different flavors of Nuka-Cola",
+    "completed": false
+  },
+  {
+    "name": "Hostile Takeover",
+    "description": "Establish 8 Raider Camps in the Commonwealth",
+    "completed": false
+  },
+  {
+    "name": "All Sugared Up",
+    "description": "Defeat 40 Nuka-World Creatures while under the effect of any Nuka-Mix flavor",
+    "completed": false
+  },
+  {
+    "name": "Eyes on the Prize",
+    "description": "Redeem 100,000 tickets at the Nuka-Cade",
+    "completed": false
+  },
+  {
+    "name": "Taken for a Ride",
+    "description": "Complete \"Taken for a Ride\"",
+    "completed": false
+  },
+  { "name": "The Grand Tour", "description": "Complete \"The Grand Tour\"", "completed": false },
+  { "name": "Home Sweet Home", "description": "Complete \"Home Sweet Home\"", "completed": false },
+  { "name": "Power Play", "description": "Complete \"Power Play\"", "completed": false }
+]
