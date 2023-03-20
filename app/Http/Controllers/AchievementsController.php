@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Achievement;
 
 class AchievementsController extends Controller
 {
@@ -11,7 +12,7 @@ class AchievementsController extends Controller
      */
     public function index()
     {
-        //
+        return Achievement::all('id', 'title', 'description', 'completed');
     }
 
     /**
@@ -49,9 +50,14 @@ class AchievementsController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, Achievement $achievement)
     {
-        //
+        $request->validate([
+            'completed' => 'required'
+        ]);
+
+        $achievement->completed = $request->completed;
+        $achievement->save();
     }
 
     /**

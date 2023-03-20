@@ -21,14 +21,25 @@ const get = async (url) => {
 };
 
 const loadAchievements = async () => {
-    achievements.value = (await get("/achievements")).data;
+    let data = (await get("/achievements")).data;
+    if (data) achievements.value = data;
 };
 
-const updateAchievement = (achievement) => {
+const updateAchievement = async (achievement) => {
     achievement.completed = !achievement.completed;
+    try {
+        const response = await axios.patch(`/achievements/${achievement.id}`, {
+            completed: achievement.completed,
+        });
+        console.log(response.data);
+    } catch (error) {
+        console.log(error);
+    }
 };
 
 loadAchievements();
+
+updateAchievement({ id: 1, completed: true });
 </script>
 
 <template>
@@ -48,13 +59,19 @@ loadAchievements();
 
                             <p
                                 class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed"
-                                v-for="(task, index) in incompleteTasks"
+                                v-for="(
+                                    achievement, index
+                                ) in incompleteAchievements"
                                 :key="index"
                             >
-                                <button @click="updateTask(task)">-</button>
-                                <span class="title">{{ task.name }}</span>
+                                <button @click="updateAchievement(achievement)">
+                                    +
+                                </button>
+                                <span class="title">{{
+                                    achievement.title
+                                }}</span>
                                 <span class="description">
-                                    {{ task.description }}</span
+                                    {{ achievement.description }}</span
                                 >
                             </p>
                         </div>
@@ -70,13 +87,19 @@ loadAchievements();
                             </h2>
                             <p
                                 class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed"
-                                v-for="(task, index) in completeTasks"
+                                v-for="(
+                                    achievement, index
+                                ) in completedAchievements"
                                 :key="index"
                             >
-                                <button @click="updateTask(task)">-</button>
-                                <span class="title">{{ task.name }}</span>
+                                <button @click="updateAchievement(achievement)">
+                                    -
+                                </button>
+                                <span class="title">{{
+                                    achievement.title
+                                }}</span>
                                 <span class="description">
-                                    {{ task.description }}</span
+                                    {{ achievement.description }}</span
                                 >
                             </p>
                         </div>
